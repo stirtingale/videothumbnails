@@ -1,0 +1,40 @@
+# Ignore video upload directories
+/uploads/
+/clips/
+/thumbnails/
+
+# Ignore all uploaded files
+*.mp4
+
+# Log files
+*.log
+cleanup.log
+
+# PHP environment files
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Composer
+/vendor/
+composer.lock
+
+# Node.js (if you add any JS tooling later)
+/node_modules/
+package-lock.json
+yarn.lock
